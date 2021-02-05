@@ -112,6 +112,17 @@ the generated results file will be data/paper/results\_new\_enriched.csv
 
 ## Demo
 
+- Before run tests on your files, you should install relavant packages by running `pip install -r requirements.txt` at the project root location. After that, you have to open an python ide and commands shown below:
+
+```python
+import nltk
+nltk.download()
+# press d to download
+# type maxent_treebank_pos_tagger
+```
+
+When you have installed required resources, you can follow below instructions.
+
 - To make predictions on some Javascript files of your own choosing, using the model used in the paper, place some Javascript files in data/demo/files and then run the following command:
 ```shell
 python2 scripts/runner.py --config scripts/configs/demo.json
